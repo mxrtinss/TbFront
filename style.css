@@ -8,7 +8,6 @@ body {
     background: linear-gradient(-45deg, #000000, #1a1a1a, #791313, #000000);
     background-size: 400% 400%;
     animation: gradientAnimation 8s ease infinite;
-    color: white;
     margin: 10px;
     height: 100vh;
     margin-top: 150px;
