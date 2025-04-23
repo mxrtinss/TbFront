@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #000000, #1a1a1a, #791313, #000000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+    color: white;
+    margin: 10px;
+    height: 100vh;
+    margin-top: 150px;
+    overflow: hidden;
+
+}
+.principal {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    
+}
+
+.linguagens {
+    color: crimson;
+   
+}
+
+.apresentacao {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentacao_2 {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.destaque_titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900px;
+    font-size: 60px;
+    font-style: normal;
+    color: white;
+    padding: 32px;
+    padding-bottom: 0.5px;
+    padding-top: 5px;
+    margin-left: 45px;
+  }
+
+  .h1_destaque  {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900px;
+    font-size: 60px;
+    font-style: normal;
+    color: crimson;
+
+    
+}
+
+.linha_principal {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 23px;
+    padding: 32px;
+    font-size: 20px;
+  }
+
+.apresentacao_botoes {
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.botao {
+    position: relative;
+    padding: 10px;
+    padding-right: 15px;
+    width: 100px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    margin-left: 29px;
+    cursor: pointer;
+    transition: transform 0.5 ease;
+    background: linear-gradient(45deg, #791313, black);
+    overflow: hidden;
+}
+
+.botao:hover {
+    transform: translateX(10px);
+
+}
+
+
+.img_principal{
+    width: 350px;
+    height: 370px;
+    border: 3px solid crimson;
+    border-radius: 15px;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.info-box {
+    position: relative;
+    display: inline-block;
+}
+
+.info-button {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    transition: background-color 0.7s;
+    margin-top: 10px;
+
+}
+
+.info-button:hover {
+    background-color: yellow;
+}
+
+.info-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    display: none;
+    z-index: 10;
+}
+
+.info-box:hover .info-text {
+    display: block;
+}
+
+.logo_bi, .logo_python, .logo_excel  {
+    width: 70px;
+    height: 70px;
+    border: 3px solid crimson;
+    border-radius: 15px;
+
+}
+
+
+.logos_ferramentas {
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+
+}
+  
+  .img_principal {
+    border: 5px solid crimson;
+    border-radius: 15px;
+    
+  }
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
